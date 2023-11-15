@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-MText {
+.MText {
     color: white;
-    text-align: centre;
+    text-align: center;
 }
