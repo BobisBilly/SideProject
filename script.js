@@ -1,6 +1,6 @@
 const valueButton = document.querySelector('#valueButton');
 
-valueButton.onClick(makePost())
+valueButton.onclick(makePost())
 
 function makePost() {
   var postData = new FormData();
