@@ -5,7 +5,7 @@ valueButton.onClick(makePost())
 function makePost() {
   var postData = new FormData();
   postData.append('data', "success");
-  fetch("https://bobisbilly.github.io/SideProject", {
+  fetch("https://bobisbilly.github.io/SideProject/value.php", {
     method: "POST",
     body: postData,
   })
