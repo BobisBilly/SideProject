@@ -1,1 +1,1 @@
-window.alert('hello!')
+const valueButton = document.querySelector('#valueButton');
