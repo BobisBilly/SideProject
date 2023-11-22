@@ -16,6 +16,6 @@ function makePost() {
       row += `<tr><td>${data.data}
           </td><td>${data.value}</td></tr>`;
     });
-    const row = document.getElementById('tableone');
+    document.getElementById('tableone').innerHTML = row;
   });
 }
